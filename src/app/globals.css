@@ -1,0 +1,140 @@
+@import "tailwindcss";
+
+@theme inline {
+  /* ── Color Palette ── */
+  --color-navy: #0a1628;
+  --color-navy-light: #0f172a;
+  --color-crimson: #c41e3a;
+  --color-crimson-dark: #a01830;
+  --color-crimson-light: #e8294a;
+  --color-gold: #d4a843;
+  --color-gold-light: #e8c468;
+  --color-forest: #0d5f3c;
+  --color-forest-dark: #094a2e;
+  --color-surface: #f8f9fa;
+  --color-surface-dark: #1a1a2e;
+  --color-border-light: #e2e8f0;
+  --color-text-primary: #1e293b;
+  --color-text-secondary: #64748b;
+  --color-text-muted: #94a3b8;
+
+  /* ── Fonts ── */
+  --font-heading: var(--font-oswald), "Arial Narrow", sans-serif;
+  --font-body: var(--font-inter), system-ui, sans-serif;
+
+  /* ── Animations ── */
+  --animate-fade-in: fade-in 0.6s ease-out forwards;
+  --animate-slide-up: slide-up 0.6s ease-out forwards;
+  --animate-slide-down: slide-down 0.3s ease-out forwards;
+  --animate-scale-in: scale-in 0.5s ease-out forwards;
+  --animate-ticker: ticker 30s linear infinite;
+  --animate-marquee: marquee 40s linear infinite;
+  --animate-pulse-slow: pulse 3s ease-in-out infinite;
+
+  @keyframes fade-in {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  @keyframes slide-up {
+    from { opacity: 0; transform: translateY(30px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  @keyframes slide-down {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  @keyframes scale-in {
+    from { opacity: 0; transform: scale(0.95); }
+    to { opacity: 1; transform: scale(1); }
+  }
+  @keyframes ticker {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+  }
+  @keyframes marquee {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+  }
+}
+
+/* ── Base Styles ── */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  color: var(--color-text-primary);
+  background: #ffffff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+  background-color: var(--color-crimson);
+  color: white;
+}
+
+/* ── Scrollbar ── */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-surface);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-text-secondary);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-navy);
+}
+
+/* ── Utility Classes ── */
+.section-container {
+  @apply mx-auto max-w-7xl px-4 sm:px-6 lg:px-8;
+}
+
+.heading-display {
+  font-family: var(--font-heading);
+  @apply text-3xl sm:text-4xl lg:text-5xl font-bold uppercase tracking-wide;
+}
+
+.heading-section {
+  font-family: var(--font-heading);
+  @apply text-2xl sm:text-3xl font-semibold uppercase tracking-wide;
+}
+
+.text-gradient {
+  @apply bg-clip-text text-transparent;
+  background-image: linear-gradient(135deg, var(--color-crimson), var(--color-gold));
+}
+
+/* ── Hero diagonal clip ── */
+.hero-clip {
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+}
+
+/* ── Dropdown Animation ── */
+.dropdown-enter {
+  animation: slide-down 0.2s ease-out;
+}
+
+/* ── Card hover ── */
+.card-hover {
+  @apply transition-all duration-300;
+}
+.card-hover:hover {
+  @apply shadow-xl;
+  transform: translateY(-4px);
+}
+
+/* ── Image overlay gradient ── */
+.overlay-gradient {
+  background: linear-gradient(
+    to top,
+    rgba(10, 22, 40, 0.85) 0%,
+    rgba(10, 22, 40, 0.4) 40%,
+    transparent 100%
+  );
+}
