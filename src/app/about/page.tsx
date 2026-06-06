@@ -9,7 +9,7 @@ export default function AboutPage() {
         title="About SKIF Bangladesh" 
         subtitle="Discover our history, mission, and the legacy of Shotokan Karate in Bangladesh."
         breadcrumbs={[{ label: 'About Us', href: '/about' }]}
-        backgroundImage="/images/hero/hero-2.webp"
+        backgroundImage="/images/Gallery/P-2.jpg"
       />
       
       <section className="py-20 bg-white">
@@ -32,7 +32,7 @@ export default function AboutPage() {
             
             <div className="relative aspect-video rounded-xl overflow-hidden shadow-xl">
               <Image 
-                src="/images/news/world-championship.jpg" 
+                src="/images/WhatsApp_Uploads/wa_2024_11_16_34.jpg" 
                 alt="SKIF Bangladesh History" 
                 fill 
                 className="object-cover"

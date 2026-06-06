@@ -25,7 +25,7 @@ export default function EventsPage() {
         title="Events & Calendar" 
         subtitle="Stay updated with our national tournaments, international seminars, and training camps."
         breadcrumbs={[{ label: 'Events & Calendar', href: '/events' }]}
-        backgroundImage="/images/hero/hero-1.webp"
+        backgroundImage="/images/Gallery/GS-Pic-1-Cw.jpg"
       />
       
       <section className="py-20 bg-surface min-h-screen">

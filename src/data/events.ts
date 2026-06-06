@@ -11,7 +11,7 @@ export const events: Event[] = [
     category: 'national',
     isRegistrationOpen: true,
     description: 'The premier national karate championship featuring Kata and Kumite competitions across all age categories. Athletes from every division will compete for national honors.',
-    featuredImage: '/images/events/national-championship.jpg',
+    featuredImage: '/images/Posters_and_Flyers/skif-bd-champ-2025-flyer.jpg',
     venue: 'Shaheed Suhrawardy Indoor Stadium',
   },
   {
@@ -24,7 +24,7 @@ export const events: Event[] = [
     category: 'international',
     isRegistrationOpen: true,
     description: 'A three-day intensive training seminar with international SKIF instructors covering advanced Kata, Kumite strategies, and Shotokan philosophy.',
-    featuredImage: '/images/events/international-seminar.jpg',
+    featuredImage: '/images/Posters_and_Flyers/Semina-poster.jpg',
     venue: 'National Sports Council Gymnasium',
   },
   {
@@ -37,7 +37,7 @@ export const events: Event[] = [
     category: 'national',
     isRegistrationOpen: true,
     description: 'Regional qualifying tournament for the National Championship. Open to all registered SKIF-BD members from the Chittagong division.',
-    featuredImage: '/images/events/regional-championship.jpg',
+    featuredImage: '/images/Events_and_Tournaments/Zia-Cup-Karate-26-2026-02-27-at-01.48.01.jpeg',
     venue: 'MA Aziz Stadium Indoor Hall',
   },
   {
@@ -50,7 +50,7 @@ export const events: Event[] = [
     category: 'training-camp',
     isRegistrationOpen: true,
     description: 'A week-long residential training camp for junior karatekas (ages 8-16) focusing on fundamental techniques, fitness, and competitive preparation.',
-    featuredImage: '/images/events/summer-camp.jpg',
+    featuredImage: '/images/Events_and_Tournaments/5-Pandop-zia-cup-2026-02-27-at-01.49.27.jpeg',
     venue: 'BKSP, Savar',
   },
   {
@@ -63,7 +63,7 @@ export const events: Event[] = [
     category: 'seminar',
     isRegistrationOpen: false,
     description: 'Specialized seminar for SKIF-BD certified instructors covering teaching methodology, student assessment, and dojo management best practices.',
-    featuredImage: '/images/events/instructor-seminar.jpg',
+    featuredImage: '/images/Events_and_Tournaments/Aminul-vai-Minister-zia-cup-2026-02-27-at-01.48.33.jpeg',
     venue: 'SKIF-BD Central Dojo',
   },
   {
@@ -76,7 +76,7 @@ export const events: Event[] = [
     category: 'international',
     isRegistrationOpen: false,
     description: 'The third edition of the South Asian SKIF Cup bringing together teams from India, Sri Lanka, Nepal, Pakistan, and Bangladesh.',
-    featuredImage: '/images/events/south-asian-cup.jpg',
+    featuredImage: '/images/Posters_and_Flyers/zia-karate-poster.jpeg',
     venue: 'Bashundhara Convention Center',
   },
 ];

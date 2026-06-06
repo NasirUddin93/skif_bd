@@ -9,7 +9,7 @@ export default function StructurePage() {
         title="Structure & Style" 
         subtitle="The philosophy, grading system, and technical rules of Shotokan Karate."
         breadcrumbs={[{ label: 'Structure & Style', href: '/structure' }]}
-        backgroundImage="/images/hero/hero-3.webp"
+        backgroundImage="/images/Gallery/P-3.jpg"
       />
       
       <section className="py-20 bg-surface">

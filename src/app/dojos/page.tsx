@@ -29,7 +29,7 @@ export default function DojosPage() {
         title="Dojo Directory" 
         subtitle="Find a certified SKIF affiliated dojo near you and start your martial arts journey."
         breadcrumbs={[{ label: 'Dojo Directory', href: '/dojos' }]}
-        backgroundImage="/images/hero/hero-2.webp"
+        backgroundImage="/images/Gallery/P-2.jpg"
       />
       
       <section className="py-20 bg-surface min-h-screen">

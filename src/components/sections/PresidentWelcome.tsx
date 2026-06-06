@@ -18,7 +18,7 @@ export function PresidentWelcome() {
             
             <div className="relative w-full aspect-[4/5] rounded-xl overflow-hidden shadow-2xl bg-navy z-10">
               <Image
-                src="/images/members/president.webp"
+                src="/images/EC_Committee_and_Members/Zia-Sir.jpg"
                 alt="President of SKIF-BD"
                 fill
                 className="object-cover"

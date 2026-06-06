@@ -9,7 +9,7 @@ export default function ContactPage() {
         title="Contact Us" 
         subtitle="Get in touch with SKIF-Bangladesh headquarters for general inquiries, affiliation requests, or membership information."
         breadcrumbs={[{ label: 'Contact', href: '/contact' }]}
-        backgroundImage="/images/hero/hero-3.webp"
+        backgroundImage="/images/Gallery/P-3.jpg"
       />
       
       <section className="py-20 bg-surface">

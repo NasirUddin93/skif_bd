@@ -16,7 +16,7 @@ interface PageHeroProps {
 export function PageHero({ 
   title, 
   subtitle, 
-  backgroundImage = "/images/hero/hero-1.webp",
+  backgroundImage = "/images/Gallery/GS-Pic-1-Cw.jpg",
   breadcrumbs 
 }: PageHeroProps) {
   return (
